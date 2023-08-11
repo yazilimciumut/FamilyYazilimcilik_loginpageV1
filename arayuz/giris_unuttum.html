@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Yazılımcılık | Giriş Yap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-main">
+        <h3 class="baslik">Family Yazılımcılık | Giriş Yap</h3>   
+        <span>Kullanıcı Adı</span>
+        <br>
+        <input type="text" placeholder="Kullanıcı Adı" name="username" id="kullaniciAdi1">
+        <br>
+        <br>
+        <span>Email</span>   
+        <br>
+        <input type="email" placeholder="Email" id="email_input">
+        <br>
+        <br>
+        <span>Şifre</span>  
+        <br>
+        <input type="password" placeholder="Şifre" name="sifre" id="sifre1">
+        <br>
+        <input type="submit" onclick="girisKontrol()" value="Giriş Yap">
+        <br>
+        <br>
+        <a href="kayit.html">Tüh Hesabım Yok /Kayıt Ol</a>
+    </div>
+    <div class="container-main2">
+        <h3 class="baslik">Şifremi Unuttum</h3>
+        <span>Kullanıcı Adı</span>
+        <br>
+        <input type="text" class="kullanici-adi" placeholder="Kullanıcı Adı" id="username_input">
+        <br>
+        <br>
+        <span>Kullanıcı Adı Tekrar</span>   
+        <br>
+        <input type="text" class="kullanici-tekrar" placeholder="Kullanıcı Adı Tekrar"  id="kullanici-tekrar">
+        <br>
+        <br>
+        <span>Email</span>   
+        <br>
+        <input type="email" class="email_inputmen" placeholder="Email" id="eposta">
+        <br>
+        <br>
+        <input type="submit" onclick="sifreUnuttum()" class="emailgonder" value="E Posta Gönder">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

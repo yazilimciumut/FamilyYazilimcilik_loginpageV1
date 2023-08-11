@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+        background: url(bg.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-family: sans-serif;
+    
+    }
+    
+    
+    .container-main 
+    {
+    margin-top: 15%;
+    margin-left: 30%;
+    background: rgb(44,53,70);
+    position: absolute;
+    height: 500px;
+    justify-content: center;
+    width: 40%;
+    font-family: sans-serif;
+    opacity: 0.95;
+    border-radius: 50px;
+    
+    
+    }
+    .baslik ,h3{
+    color: rgb(119, 131, 150);
+    font-size: 45px;   
+    background-color: rgb(17, 24, 36);
+    text-align: center;
+    /* border-right: 1px solid white; */
+    
+    }
+    /* 
+    .,  {
+    color: rgb(119, 131, 150);
+    font-size: 25px;
+    
+    } */
+    .container-main input 
+    {
+    margin-left: 20px;
+    margin-top:20px;
+    height: 45px;
+    width: 95%;
+    background: rgb(34, 39, 50);
+    border: 1px;
+    color: rgb(247, 247, 247);
+    border-radius: 5px;
+    outline: none;
+    }
+    
+    span
+    {
+        margin-left: 15px;
+     
+    color: rgb(119, 131, 150);
+    font-size: 25px;
+    }
+    
+    .container-main2 
+    {
+    background: rgb(44,53,70);    
+    margin-top: 15%;
+    margin-left: 65%;
+    position: absolute;
+    height: 500px;
+    justify-content: center;
+    width: 25%;
+    font-family: sans-serif;
+    opacity: 0.95;
+    border-radius: 50px;
+    
+    }
+    
+    a {
+    text-decoration: none;
+    color: rgb(145, 145, 145);
+    margin-left:  31%;
+    font-size: 25px;
+    /* background: rgb(62, 95, 150); */
+    }
+    
+    
+    a:hover
+    {
+    transition: 1.00s;
+    background: rgb(44,53,70);
+    }
